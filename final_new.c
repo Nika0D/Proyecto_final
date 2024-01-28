@@ -4,7 +4,6 @@
 struct ingrediente
 {
     char nombre[50];
-    char unidad[50];
     float precio;
 };
 struct ingrediente_receta
@@ -75,8 +74,6 @@ int main(int argc, char const *argv[])
 
     FILE *puntero;
     FILE *recetas;
-#define iva 0.12
-#define servicio 0.10
     int num, cantidad, num_ingrediente, salir = 1;
     float precioi;
     char ingrediente[50];
@@ -154,7 +151,6 @@ int main(int argc, char const *argv[])
                 }
 
             } while (num_ingrediente >= 0);
-
             do
             {
                 printf("La reseta cuesta: %f cuanto desea cobrar: \n", recetas_array[cantidad_recetas].costo);
@@ -177,7 +173,6 @@ int main(int argc, char const *argv[])
             char tosave[100];
             sprintf(tosave, "%s,%.2f%s\n", recetas_array[cantidad_recetas].nombre, recetas_array[cantidad_recetas].precio, cadena_ingredientes);
             printf("%s\n", tosave);
-
             fputs(tosave, recetas);
             fclose(recetas);
             cantidad_recetas++;
