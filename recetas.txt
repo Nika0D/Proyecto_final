@@ -1,0 +1,5 @@
+pizza,100.00,carne,2,pan,3,tomate,4
+hamburguesa,60.00,pan,2,tomate,1,carne,1
+panbimbo,120.00,maracuya,2,pan,3,mango,1
+mambo,60.00,carne,2,pan,2
+David,300.00,tomate,2,mango,3,tomate,1,carne,2

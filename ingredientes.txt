@@ -1,0 +1,8 @@
+carne,17
+tomate,5
+pan,2.3
+mango,21.00
+pan3,33.00
+maracuya,22
+manzana,2.11
+dois,3.00
